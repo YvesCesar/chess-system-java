@@ -14,6 +14,7 @@ public class UI {
 	public static final String ANSI_RED = "\u001B[31m";
 	public static final String ANSI_GREEN = "\u001B[32m";
 	public static final String ANSI_YELLOW = "\u001B[33m";
+	public static final String ANSI_BRIGHTYELLOW = "\u001B[93m";
 	public static final String ANSI_BLUE = "\u001B[34m";
 	public static final String ANSI_PURPLE = "\u001B[35m";
 	public static final String ANSI_CYAN = "\u001B[36m";
@@ -53,7 +54,7 @@ public class UI {
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }
             else {
-                System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
+                System.out.print(ANSI_BRIGHTYELLOW + piece + ANSI_RESET);
             }
         }
         System.out.print(" ");
